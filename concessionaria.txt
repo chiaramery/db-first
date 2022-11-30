@@ -1,0 +1,42 @@
+Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+CONCESSIONARIA:
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+marca - VARCHAR(11) - NOTNULL - INDEX
+modello - VARCHAR(25) - NOTNULL - INDEX
+tipo - VARCHAR(15) - NOTNULL - INDEX
+anno - YEAR - NOTNULL
+colore - VARCHAR(9) - NOTNULL - INDEX
+cilindrata(CV) - INT - NOTNULL
+prezzo - DECIMAL(7, 2) - NOTNULL
+tan(%) - DECIMAL(3, 1) - NOTNULL
+taeg(%) - DECIMAL(3, 1) - NOTNULL
+tipo_carburante - VARCHAR(11) - NOTNULL 
+autonomia(km) - INT - NOTNULL
+posti_interni - INT - NOTNULL
+ultimo_tagliando(anno) - YEAR - NOTNULL 
+km_percorsi - FLOAT(6,4) - NOTNULL
+sconto(%) - FLOAT(3,1) - NULL
+iva(%) - FLOAT(3,1) - NOTNULLA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
