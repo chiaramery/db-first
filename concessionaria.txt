@@ -19,6 +19,8 @@ km_percorsi            - FLOAT(6,4)   - NOTNULL
 cilindrata(CV)         - INT          - NULL
 sconto(%)              - FLOAT(3,1)   - NULL
 iva(%)                 - FLOAT(3,1)   - NULL
+peso(kg)               - SMALLINT     - NULL
+altezza(cm)            - SMALLINT     - NULL
 
 
 
